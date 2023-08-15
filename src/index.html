@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>NFT PREVIEW</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			rel="icon"
+			type="image/x-icon"
+			href="./images/favicon-32x32.png"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="/dist/output.css" />
+	</head>
+	<body
+		class="bg-veryDarkBlueMainBG flex w-[100dvw] h-[100dvh] justify-center items-center font-outfit"
+	>
+		<section
+			class="flex flex-col gap-y-3 bg-veryDarkBlueCardBG p-5 rounded-xl w-[280px] box-content select-none sm:shadow-[0px_0px_0px_15px_rgba(0,0,0,0.08),0px_0px_0px_35px_hsla(216,50%,16%,0.1)] shadow-[0px_0px_0px_15px_rgba(0,0,0,0.08)]"
+		>
+			<div class="relative">
+				<img
+					src="./images/image-equilibrium.jpg"
+					alt="equilibrium"
+					class="w-full select-auto rounded-xl peer/image"
+				/>
+				<img
+					class="absolute opacity-0 peer-hover/image:opacity-100 top-1/2 left-1/2 -translate-x-1/2 pointer-events-none -translate-y-1/2"
+					src="./images/icon-view.svg"
+					alt=""
+				/>
+				<div
+					class="absolute pointer-events-none bg-cyan opacity-0 peer-hover/image:opacity-30 top-0 left-0 w-full h-full rounded-xl"
+				></div>
+			</div>
+			<div class="flex flex-col gap-y-4">
+				<h1
+					class="text-white text-xl font-bold hover:text-cyan cursor-pointer"
+				>
+					Equilibrium #3429
+				</h1>
+
+				<p class="text-white">
+					Our Equilibrium collection promotes balance and calm
+				</p>
+
+				<div class="flex w-full justify-between">
+					<small class="flex gap-x-3 items-center"
+						><img
+							src="./images/icon-ethereum.svg"
+							alt="etherium"
+						/><span class="text-cyan">0.41ETH</span></small
+					>
+					<small class="flex gap-x-3 items-center">
+						<img src="./images/icon-clock.svg" alt="" />
+						<span class="text-softBlue">3 days left</span>
+					</small>
+				</div>
+			</div>
+			<div
+				class="border-t border-t-veryDarkBlueLine pt-3 flex items-center gap-x-3 text-lg"
+			>
+				<img
+					class="rounded-full w-10 h-10 border border-softBlue"
+					src="./images/image-avatar.png"
+					alt=""
+				/>
+				<small class="text-softBlue"
+					>Creation of
+					<span class="text-white hover:text-cyan cursor-pointer"
+						>Jules Wyvern</span
+					></small
+				>
+			</div>
+		</section>
+	</body>
+</html>
